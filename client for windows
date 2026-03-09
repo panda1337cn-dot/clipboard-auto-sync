@@ -7,6 +7,8 @@ import subprocess
 
 from flask import request_started
 
+base_url = "http://????:5000" + "/"
+machine_id = 1002
 
 def get_clipboard_image_b64():
     """
@@ -102,9 +104,9 @@ def copy_base64_to_clipboard(base64_string):
         print(f"xclip 写入失败: {e}")
 
 
-machine_id = 1002
+
 # to support ios , ws is not applied.
-base_url = "http://43.138.181.55:5000" + "/"
+
 pyperclip.set_clipboard("windows") 
 clip_cache=""
 while True:
