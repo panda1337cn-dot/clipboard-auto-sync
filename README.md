@@ -1,6 +1,7 @@
-# clipboard-auto-sync
+# clipboard-auto-sync 剪切板同步
 automatic clipboard sync between computer and ios
 
+剪切板同步
 自动同步ios与电脑（windows/linux端）的剪切板<br />
 需要自行准备服务器或者内网使用
 
